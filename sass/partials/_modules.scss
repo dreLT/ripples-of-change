@@ -1,0 +1,61 @@
+
+/* Backgrounda */
+.blog, .single, .archive, .page-id-165 {
+  background: url('img/background-watercolor-blog.jpg') no-repeat;
+  background-size: cover;
+}
+
+
+.obj_center {
+  display: block;
+  margin: 0 auto;
+}
+
+.obj_float-left {
+  float: left;
+}
+
+.site-nav_rule {
+  max-width: 100%;
+  display: block;
+}
+
+.intro-text_margin-bottom {
+  margin-bottom: 22px;
+}
+
+.form-required {
+  color: #dd4052;
+}
+
+.color-border-large {
+  border-style: solid;
+  border-width: 10px 14px 12px 10px;
+  -moz-border-image: url(img/border.png) 10 14 12 10 round;
+  -webkit-border-image: url(img/border.png) 10 14 12 10 round;
+  -o-border-image: url(img/border.png) 10 14 12 10 round;
+  border-image: url(img/border.png) 10 14 12 10 round;
+}
+
+.color-border-small {
+  border-style: solid;
+  border-width: 7px 8px 10px 7px;
+  -moz-border-image: url(img/border.png) 10 14 12 10 round;
+  -webkit-border-image: url(img/border.png) 10 14 12 10 round;
+  -o-border-image: url(img/border.png) 10 14 12 10 round;
+  border-image: url(img/border.png) 10 14 12 10 round;
+}
+
+/* Buttons */
+
+.wpcf7-submit {
+cursor: pointer;
+padding:8px 0 10px 0px;
+border:none;
+width:111px;
+height:64px;
+text-align:center;
+background-image:url(img/button_submit.png);
+background-repeat:no-repeat;
+background-color: transparent;
+}

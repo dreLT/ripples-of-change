@@ -1,0 +1,109 @@
+@import "compass";
+@import "susy";
+
+// Default Grid
+
+$susy: (
+	columns: 12,
+	gutters: 1/4,
+	math: fluid,
+);
+
+// Static Grid
+
+$static: (
+	math: static,
+	columns: 16,
+	column-width: 58px,
+	gutters: 1/4,
+);
+
+// Blog Single-Post Grid
+
+$single-post-page: (
+	columns: 10,
+	gutters: 4,
+	math: fluid,
+);
+
+// .body-container { @include container; margin-bottom: 26px; }
+	
+// 	// Homepage
+// 	.home_intro-text { @include span(6 of 12); }
+// 	.home_photo { @include span (6 of 12 last); }
+
+// 	// Services Pages
+// 		.services_nav { @include span(3.5 of 12); }
+// 	.services_content, .technique_content { @include span(8 of 12); }
+
+
+
+// #site-container { @include container($static); }
+// .site-nav { @include span(16 of 16) }
+// .home_intro-text { @include span(2 of 4) }
+// .home_photo { @include span (2 of 4 last); }
+
+
+/* body { @include container(78%); }
+.site-nav { @include span(12 of 12) }
+.home_intro-text { @include span(6 of 12) }
+.home_photo { @include span (6 of 12 last); } */
+
+
+// @include layout(12 2.5 fluid);
+
+// .body-container { @include container }
+// 	.scheduling_container { @include span(6 of 12) }
+// 	.contact_container { @include span (6 of 12 last) }
+
+// #footer-container { @include span(12 of 12) }
+
+// .our-team_text { @include span(12 of 12) }
+
+// .blog-home_intro-text { @include span(9 of 12) }
+// .button_submit-q { @include span(3 of 12 last) }
+// .blog-home_post-list { @include span(9 of 12) }
+// .blog_nav { @include span(3 of 12 last) }
+// .blog_pagination { @include span(12 of 12 last) }
+
+// @include layout(12 1 fluid);
+	
+// 	.services_container { @include container }
+// 	.services_nav { @include span(3 of 12) }
+// 	.services_content, .technique_content { @include span(9 of 12 last) }
+
+// 	@include layout(12 3/4 fluid);
+
+// 		.services_content { @include container }
+// 		.service header, .service article { @include span(8 of 12) }
+// 		.service figure { @include span(4 of 12 last) }
+
+
+// @include layout(12 1/2 fluid);
+	
+// 	.blog-home_post-list { @include container }
+// 	.blog_top-post, .blog_post { @include span(12 of 12 last) }
+// 	.top-post-thumb { @include span(4.5 of 12) }
+// 	.post-thumb { @include span(3.5 of 12) }
+
+
+// @include layout(12 1/2 fluid);
+	
+// 	.body-container { @include container }
+// 	.archives_month { @include span(6 of 12) }
+// 	.archives_categories-tags { @include span(6 of 12 last) }
+
+// @include layout(10 4 fluid);
+
+// 	#body-container-single-post { @include container(86%) }
+// 	.blog_article { @include span(7 of 10) }
+// 	.post-author-info { @include span(10 of 10 last) }
+// 	.blog_nav { @include span(3 of 10 last) }
+
+// 	@include layout(6 1/8 fluid);
+		
+// 		//.post-tags { @include span(6 of 6 last) }
+
+// 		.post-suggestions { @include container }
+// 		.post-suggestion { @include span(2 of 6) }
+// 		.post-suggestion:last-child { @include span(2 last) }
